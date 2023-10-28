@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="portfolio">
+        <div class="card">
+            <h1>My Name</h1>
+            <p>I am a software developer.</p>
+        </div>
+        <div class="card">
+            <h1>My Skills</h1>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h1>My Projects</h1>
+            <p>Project 1</p>
+            <p>Project 2</p>
+            <p>Project 3</p>
+        </div>
+    </div>
+     <footer>
+        <p>© 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+<--CSS-->
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: #3f3f3f;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* About Me */
+.about {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    color: #3f3f3f;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 1.125rem;
+}
+
+/* Skills */
+.skills {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    color: #3f3f3f;
+}
+
+.skills h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 1.125rem;
+    margin-bottom: 5px;
+}
+
+/* 
